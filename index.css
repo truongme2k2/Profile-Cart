@@ -21,7 +21,7 @@ body{
 }
 .wrapper{
   position: relative;
-  width: 350px;
+  width: 350px ;
   padding: 30px;
   border-radius: 10px;
   display: flex;
@@ -124,9 +124,6 @@ body{
 .social-icons a.fb i{
   color: #4267B2;
 }
-.social-icons a.phone i{
-  color: #1DA1F2;
-}
 .social-icons a.insta i{
   color: #E1306C;
 }
@@ -151,48 +148,9 @@ body{
   cursor: pointer;
   z-index: 4;
 }
-.buttons button:first-child{
-  margin-right: 10px;
+.mess{
+  color: #111010;
+  text-decoration: none;
 }
-.buttons button:last-child{
-  margin-left: 10px;
-}
-.wrapper .social-share{
-  display: flex;
-  width: 100%;
-  margin-top: 30px;
-  padding: 0 5px;
-  justify-content: space-between;
-}
-.social-share .row{
-  color: #31344b;
-  font-size: 17px;
-  cursor: pointer;
-  position: relative;
-}
-.social-share .row::before{
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 2px;
-  background: #e0e6eb;
-  margin-left: -25px;
-}
-.row:first-child::before{
-  background: none;
-}
-.social-share .row i.icon-2{
-  position: absolute;
-  left: 0;
-  top: 50%;
-  color: #31344b;
-  transform: translateY(-50%);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s ease;
-}
-.row:nth-child(1):hover i.fa-heart,
-.row:nth-child(2):hover i.fa-comment{
-  opacity: 1;
-  pointer-events: auto;
-}
+
+
